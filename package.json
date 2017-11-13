@@ -1,0 +1,24 @@
+{
+  "name": "translation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-trans-api-cn": "0.0.10",
+    "google-translate": "^2.0.5",
+    "google-translate-api": "^2.3.0",
+    "node-google-translate-skidz": "^1.1.1",
+    "rd": "^1.1.2",
+    "request": "^2.81.0",
+    "terminal-translate": "^1.0.4",
+    "translate-api": "^0.3.12",
+    "translation.js": "^0.4.1",
+    "walk": "^2.3.9",
+    "youdao-fanyi": "^1.0.4"
+  }
+}

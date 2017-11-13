@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lib\json\jsoncpp.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="code\block\block.cpp">
+      <Filter>code\block</Filter>
+    </ClCompile>
+    <ClCompile Include="code\biological.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\blockBase.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\camera.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\collisionCheck.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\config.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gui\createTable.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\demo.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\function.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gui.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\planeBase.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\scenes.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\set.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\touchCheck.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gui\bag.cpp">
+      <Filter>code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\plane\plane.cpp">
+      <Filter>code\plane</Filter>
+    </ClCompile>
+    <ClCompile Include="code\biological\player.cpp">
+      <Filter>code\biological</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gui\shortCutBar.cpp">
+      <Filter>code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="code\item\item.cpp">
+      <Filter>code\item</Filter>
+    </ClCompile>
+    <ClCompile Include="code\itemBase.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\item\tool.cpp">
+      <Filter>code\item</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overall.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="freeWorld.h" />
+    <ClInclude Include="lib\sol.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="code\block\block.h">
+      <Filter>code\block</Filter>
+    </ClInclude>
+    <ClInclude Include="code\biological.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\blockBase.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\camera.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\collisionCheck.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\config.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gui\createTable.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\demo.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\function.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gui.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\planeBase.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\scenes.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\set.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gui\bag.h">
+      <Filter>code\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\plane\plane.h">
+      <Filter>code\plane</Filter>
+    </ClInclude>
+    <ClInclude Include="code\biological\player.h">
+      <Filter>code\biological</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gui\shortCutBar.h">
+      <Filter>code\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\touchCheck.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\item\item.h">
+      <Filter>code\item</Filter>
+    </ClInclude>
+    <ClInclude Include="code\itemBase.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\item\tool.h">
+      <Filter>code\item</Filter>
+    </ClInclude>
+    <ClInclude Include="code\overall.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{1aca2725-160a-47e6-a1c1-736d31a206c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{a7d5ab5d-444e-4e06-86aa-6a97b6620af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\biological">
+      <UniqueIdentifier>{9045eefe-9ad7-4028-96f7-82787a19d77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\block">
+      <UniqueIdentifier>{5517cec4-f642-4573-97f7-e3b7fe8d2269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\gui">
+      <UniqueIdentifier>{64f5a39c-3139-481b-850a-2b67ad9ef212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\item">
+      <UniqueIdentifier>{9ae19bda-f57e-4efb-8cd7-935216c1bd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\other">
+      <UniqueIdentifier>{bb2fabf7-2529-4bf4-9f13-a9328204c422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\plane">
+      <UniqueIdentifier>{59e90da0-a2ba-4227-ac5f-d3209e264a66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
