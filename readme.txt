@@ -8,5 +8,4 @@ side project
 
 因为在项目加了windows的三方库， 所以暂时只能pc上运行
 
-有大几率会继续更新
 
